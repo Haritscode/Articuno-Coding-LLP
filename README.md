@@ -22,5 +22,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This app is all about changing the mui Component style in without using any pre build hooks defined by mui. So to do so i have created a .css file where some css in being applied externally to do the given task.
 
+### Before Change
 ![Screenshot](before.png)
+
+### After Change
 ![Screenshot](after.png)
