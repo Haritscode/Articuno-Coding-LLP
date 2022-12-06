@@ -6,16 +6,19 @@ body{
   justify-content: center;
 }
 .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
-  border-color:#1d72e7 !important;
+  border-color:#FC030B !important;
 }
 .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root.hover Mui-focused .MuiOutlinedInput-notchedOutline{
-  border-color:#1d72e7 !important;
+  border-color:#FC030B !important;
 }
 .css-19mk8g1-MuiInputBase-root-MuiFilledInput-root:hover:not(.Mui-disable):after{
-  border-bottom: 2px solid #1d72e7 !important;
+  border-bottom: 2px solid #FC030B !important;
+}
+.css-19mk8g1-MuiInputBase-root-MuiFilledInput-root:after{
+  border-bottom: 2px solid #FC030B !important;
 }
 .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after{
-  border-bottom: 2px solid #1d72e7 !important;
+  border-bottom: 2px solid #FC030B !important;
 }
 .css-1ptx2yq-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before{
   border-bottom: 1px solid !important ;
