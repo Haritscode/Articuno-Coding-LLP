@@ -11,15 +11,15 @@ body{
 .custom_input .hover Mui-focused .MuiOutlinedInput-notchedOutline{
   border-color:#FC030B !important;
 }
-.css-19mk8g1-MuiInputBase-root-MuiFilledInput-root:hover:not(.Mui-disable):after{
+.custom_input_2 :hover:not(.Mui-disable):after{
   border-bottom: 2px solid #FC030B !important;
 }
-.css-19mk8g1-MuiInputBase-root-MuiFilledInput-root:after{
+.custom_input_2 :after{
   border-bottom: 2px solid #FC030B !important;
 }
-.css-1ptx2yq-MuiInputBase-root-MuiInput-root:after{
+.custom_input_3 :after{
   border-bottom: 2px solid #FC030B !important;
 }
-.css-1ptx2yq-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled):before{
+.custom_input_3 :hover:not(.Mui-disabled):before{
   border-bottom: 1px solid !important ;
 }

@@ -14,8 +14,8 @@ function App() {
       autoComplete="off"
     >
       <TextField id="outlined-basic" label="Outlined" variant="outlined" className='custom_input' />
-      <TextField id="filled-basic" label="Filled" variant="filled" ckassName="custom_input"/>
-      <TextField id="standard-basic" label="Standard" variant="standard" className='custom_input' />
+      <TextField id="filled-basic" label="Filled" variant="filled" className="custom_input_2"/>
+      <TextField id="standard-basic" label="Standard" variant="standard" className='custom_input_3' />
     </Box>
     </div>
     </>
