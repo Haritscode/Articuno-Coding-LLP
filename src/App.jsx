@@ -1,23 +1,23 @@
 import './App.css';
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
-// import {useState,createContext,useContext} from 'react';
-// import App1 from './App1';
-// const initalState={
-//   color:"white"
-// }
-// const GlobalProvider=createContext();
+// import Box from '@mui/material/Box';
+// import TextField from '@mui/material/TextField';
+import {useState,createContext} from 'react';
+import App1 from './App1';
+const initalState={
+  color:"white"
+}
+const GlobalProvider=createContext();
 function App() {
-  // const [color, setColor] = useState(false);
-  // const aulterColor=(value)=>{
-  //   setColor(!value);
-  // }
+  const [color, setColor] = useState(false);
+  const aulterColor=(value)=>{
+    setColor(!value);
+  }
   // const colorChange=()=>{
   //   setisTrue(false)
   // }
   return (
     <>
-    <div>
+    {/* <div>
     <Box
       component="form"
       sx={{
@@ -30,15 +30,15 @@ function App() {
       <TextField id="filled-basic" label="Filled" variant="filled" className="custom_input_2"/>
       <TextField id="standard-basic" label="Standard" variant="standard" className='custom_input_3' />
     </Box>
-    </div>
-    {/* <div>
+    </div> */}
+    <div>
       <GlobalProvider.Provider value={{color,aulterColor}}>
         <App1/>
       </GlobalProvider.Provider>
-    </div> */}
+    </div>
     </>
   );
 }
 
 export default App;
-// export {GlobalProvider};
+export {GlobalProvider};
