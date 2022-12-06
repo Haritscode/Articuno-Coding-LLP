@@ -13,9 +13,9 @@ function App() {
       noValidate
       autoComplete="off"
     >
-      <TextField id="outlined-basic" label="Outlined" variant="outlined" className='Mui-focused' />
-      <TextField id="filled-basic" label="Filled" variant="filled" />
-      <TextField id="standard-basic" label="Standard" variant="standard" />
+      <TextField id="outlined-basic" label="Outlined" variant="outlined" className='custom_input' />
+      <TextField id="filled-basic" label="Filled" variant="filled" ckassName="custom_input"/>
+      <TextField id="standard-basic" label="Standard" variant="standard" className='custom_input' />
     </Box>
     </div>
     </>
